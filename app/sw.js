@@ -20,7 +20,7 @@
 /* eslint-env browser, serviceworker, es6 */
 
 'use strict';
-self.addEventListener('push', function(event) {
+self.addEventListener('click', function(event) {
   console.log('[Service Worker] Push Received.');
   console.log(`[Service Worker] Push had this data: "${event.data.text()}"`);
 
